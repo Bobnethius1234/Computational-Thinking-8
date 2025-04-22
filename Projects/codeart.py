@@ -16,6 +16,6 @@ colors = ["red","green","blue"]
 for i in range (5000):
     t.color( colors[ i % 3 ] )
     t.forward(1 + i)
-    t.left(111)
+    t.left(429785)
 
 turtle.exitonclick()
