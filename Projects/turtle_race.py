@@ -15,15 +15,7 @@ def create_sprite(image_filename, x=0, y=0):
 	sprite.penup()
 	sprite.goto(x,y)
 	return sprite
-print("PLEASE SUBMIT BETS OF 100 DOLLARS ONLY")
-if input == ("100 dollars on bat"):
-	print("BET COLLECTED")
-if input == ("100 dollars on basketball"):
-	print("BET COLLECTED")
-if input == ("100 dollars on can"):
-	print("BET COLLECTED")
-if input ==("100 dollars on bench"):
-	print("BET COLLECTED")
+print("WELCOME TO THE PYTHON DERBY!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 # Section 2 - Variables
 # TODO - add starting values for all the variables
 x1 = -200
@@ -64,12 +56,12 @@ for i in range(45):
 # # TODO - complete the elif for player 2 winning
 # # TODO - write another elif for player 3 and player 4
 if x1 >= x2 and x1 >= x3 and x1 >= x4:
-	print("basketball wins!!!!!!!!!!")
+	print("BASKETBALL WINS!!!!!!!!!!")
 elif x2 >= x1 and x2 >= x3 and x2 >= x4:
-    print("bat wins!!!!!!!!!!!!!!!!!")
+    print("BAT WINS!!!!!!!!!!!!!!!!!")
 elif x3 >= x1 and x3 >= x2 and x3 >= x4:
-	print("bench wins!!!!!!!!!")
+	print("BENCH WINS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 elif x4 >= x1 and x4 >= x2 and x4 >= x3:
-	print("can wins!!!!!!!!!!!!!!!!!!")
+	print("CAN WINS!!!!!!!!!!!!!!!!!!")
 
 turtle.exitonclick()
