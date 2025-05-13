@@ -30,6 +30,7 @@ window.tracer(0)
 
 
 # setup + variables
+set_background("park")
 s2 = turtle.Turtle()
 s1 = turtle.Turtle()
 s3 = turtle.Turtle()
